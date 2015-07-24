@@ -28,6 +28,8 @@ LOCAL_AAPT_FLAGS := \
     --auto-add-overlay \
     --extra-packages com.android.phone.common
 
+LOCAL_AAPT_INCLUDE_ALL_RESOURCES := true
+
 LOCAL_STATIC_JAVA_LIBRARIES := \
     com.android.vcard \
     guava \
